@@ -1,0 +1,246 @@
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+ 
+.rowcard {
+  margin: auto !important;
+  margin-left: 0px;
+  margin-right:0px ;
+}
+
+body {
+  background: #bbe1fa;
+  color: black !important ;
+  zoom: 100%;
+}
+
+
+footer{
+  position: sticky;
+  
+}
+
+a :hover{
+color: black;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.zoom {      
+  -webkit-transition: all 0.35s ease-in-out;    
+  -moz-transition: all 0.35s ease-in-out;    
+  transition: all 0.35s ease-in-out;     
+  cursor: -webkit-zoom-in;      
+  cursor: -moz-zoom-in;      
+  cursor: zoom-in;  
+  }     
+  
+  .zoom:hover,  
+  .zoom:active,   
+  .zoom:focus {
+  /**adjust scale to desired size, 
+  add browser prefixes**/
+  -ms-transform: scale(1.5);    
+  -moz-transform: scale(1.5);  
+  -webkit-transform: scale(1.5);  
+  -o-transform: scale(1.5);  
+  transform: scale(1.5);    
+  position:relative;      
+  z-index:100;  
+  }
+
+
+  .container-fluid{
+    padding: 0px;
+  }
+ 
+  
+ 
+ 
+  body
+{
+margin:0px;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+.jumbotron{
+  padding:0rem 0rem 0.8rem 0rem!important;
+}
+
+.jumbom {
+
+  background-image: url("main.jpg");
+  width:100%;
+  z-index: -1;  }
+  .divtext {
+
+    z-index:100;
+    font-size: 1.2em;
+    margin-top: -100px;
+  }
+  .carttext{
+    margin-top: 10px !important;
+  }
+
+  .form-control{
+    font-size: 0.8rem;
+  }
+  .ad{
+    margin-bottom: 2.5rem;
+  }
+
+
+  .paybtn{
+    padding: 0.5rem 4rem;
+  }
+
+  .jhead{
+    font-size: 1.2rem;
+  }
+
+  .camt{
+    font-size: 0.9rem;
+  }
+
+  .c{
+    margin: 1rem 10rem;
+  }
+  .ccz{
+    font-size: 0.8rem;
+    margin:0rem 1rem 2rem 1rem !important;
+  }
+  .contactbox{
+    margin: 1rem 1rem 0rem 1rem !important; 
+  }
+
+  .ci{
+    max-height: 20rem;
+  }
+
+  .ct{
+    font-size: 0.8rem;
+  }
+  .decorated{
+    overflow: hidden;
+    text-align: center;
+}
+.decorated > span{
+   position: relative;
+   display: inline-block;
+}
+.decorated > span:before, .decorated > span:after{
+   content: '';
+   position: absolute;
+   top: 50%;
+   border-bottom: 0.5px solid;
+   width: 592px; /* half of limiter */
+   margin: 0 20px;
+   color: grey;
+}
+.decorated > span:before{
+   right: 100%;
+}
+.decorated > span:after{
+   left: 100%;
+}
+
+.mw{
+  margin-top: 1rem;
+}
+
+.wt{
+  font-size: 1.5rem;
+}
+
+  @media screen and (max-width:600px)
+  {
+    .cardc{
+      max-width:8rem;
+      margin: 20px 0px !important;
+    }
+    .ct{
+    font-size: 10px;
+    margin-top: 1px !important;
+    }
+    .cp{
+      font-size: 5px;
+      margin: 0px !important;
+    }
+    .cd{
+      font-size:10px;
+    }
+    .ci img{
+       width: 120px;
+       height:120px;
+    }
+    .cb{
+      font-size: 5px;
+      margin-top: 2px !important;
+    }
+    .card-body{
+      padding: 0.5rem;
+    }
+    .carttext{
+      margin-top: 6px !important;
+    }
+    .cct{
+      font-size: 0.5rem !important;
+      margin:8px 0px !important;
+    }
+    .ccp{
+      font-size: 5px !important;
+      margin:8px 0px !important;
+
+    }
+    .ccd{
+      font-size: 5px !important;
+      margin:8px 0px !important;
+
+    }
+    .st{
+      font-size: 0.5rem;
+    }
+    .form-control{
+      font-size: 0.5rem;
+    }
+    .offset-md-2{
+      margin: 0rem 2rem;
+    }
+    .ad{
+      margin-bottom: 0rem;
+    }
+    .paybtn{
+      padding: 0.2rem 3rem;
+    }
+    .jhead{
+      font-size: 0.8rem;
+    }
+    .camt{
+      font-size: 0.9rem;
+    }
+    .ccz{
+      font-size: 0.6rem;
+      margin:0rem 2rem 2rem 2rem !important;
+    }
+    .mw{
+      margin-top: 0rem;
+      padding: 0rem;
+    }
+    .wt{
+      font-size: 1rem;
+    }
+  }
+
